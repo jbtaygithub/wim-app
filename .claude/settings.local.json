@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm ls:*)",
+      "Bash(node -e:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run lint)",
+      "Bash(pkill:*)",
+      "Bash(grep:*)",
+      "Bash(npm install:*)",
+      "Bash(timeout 8 npm run dev:*)",
+      "Bash(lsof:*)",
+      "Bash(pgrep:*)"
+    ]
+  }
+}
